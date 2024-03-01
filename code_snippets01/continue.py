@@ -7,5 +7,5 @@ for number in range(1, 6):
     # calculate the product of number and 2
     product = number * 2
     # Print out the product in a table form
-    print(number, '* 2 = ', product)
+    print(f"{number} * 2 = {product}")
 print('Loop completed')
