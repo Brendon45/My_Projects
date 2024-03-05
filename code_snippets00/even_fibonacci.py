@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 """
 A program that finds the sum of even fibonacci numbers under 4 000 000
