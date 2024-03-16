@@ -1,18 +1,20 @@
 #!/usr/bin/python3
 
 def generate_usernames(first_name, surname):
+    # Set to store unique username suggestions
     usernames = set()
 
-    # Suggestion 1: First 3 characters of first name and surname
+    # Generate username suggestions based on different combinations
+    # Add suggestion based on first 3 characters of first name and surname
     usernames.add(f"@{first_name[:3].lower()}_{surname[:3].lower()}")
 
-    # Suggestion 2: Full first name and surname
+    # Add suggestion based on full first name and surname
     usernames.add(f"@{first_name.lower()}_{surname.lower()}")
 
-    # Suggestion 3: First character of first name, full surname
+    # Add suggestion based on first character of first name and full surname
     usernames.add(f"@{first_name[0].lower()}_{surname.lower()}")
 
-    # Suggestion 4: Full first name, first 3 characters of surname
+    # Add suggestion based on full first name and first 3 characters of surname
     usernames.add(f"@{first_name.lower()}_{surname[:3].lower()}")
 
     # Generate additional unique username suggestions (up to 15)
@@ -24,12 +26,13 @@ def generate_usernames(first_name, surname):
 
     return usernames
 
-# Generate username from firstname and surname
+# Input first name and surname
 first_name = input("First Name: ")
 surname = input("Surname: ")
 
 # Check if both first name and surname are provided
 if first_name and surname:
+    # Generate and display username suggestions
     usernames = generate_usernames(first_name, surname)
     print(f"Your username suggestions are:")
     for username in usernames:
