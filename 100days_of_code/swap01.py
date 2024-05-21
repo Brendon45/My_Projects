@@ -19,6 +19,6 @@ b = input("Enter value of b: ")
 # Swapping values using multiple assignment
 a, b = b, a
 
-# Printing the values after swapping
+# Printing the values the swap
 print(f"a = {a}")
 print(f"b = {b}")
