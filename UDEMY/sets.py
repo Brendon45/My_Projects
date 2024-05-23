@@ -7,7 +7,7 @@ print(my_set1)
 
 
 # set of mixed datatypes
-my_set2 = {101, "Agnibha", (21, 2, 1994)}
+my_set2 = {101, "Blessing", (21, 2, 1994)}
 print(my_set2)
 
 
