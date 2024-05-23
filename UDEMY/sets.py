@@ -3,17 +3,17 @@
 # creating sets
 # set of integers
 my_set1 = {11, 33, 66, 55, 44, 22}
-print(my_set1)
+print(my_set1, "\n")
 
 
 # set of mixed datatypes
 my_set2 = {101, "Blessing", (21, 2, 1994)}
-print(my_set2)
+print(my_set2, "\n")
 
 
 # duplicate values are not allowed
 my_set3 = {11, 22, 33, 33, 44, 22}
-print(my_set3)
+print(my_set3, "\n")
 
 
 # set cannot have mutable items
@@ -23,13 +23,13 @@ print(my_set3)
 # we can make set from a list
 my_set5 = set([1, 2, 3, 2])
 print(my_set5)
-print(type(my_set5))
+print(type(my_set5), "\n")
 
 
 # we can make list from a set
 my_list1 = list({11, 22, 33, 44})
 print(my_list1)
-print(type(my_list1))
+print(type(my_list1), "\n")
 
 
 # operatios on sets
@@ -50,7 +50,7 @@ print(my_set1)
 
 # add list and set
 my_set1.update([100, 102], {103, 104, 105})
-print(my_set1)
+print(my_set1, "\n")
 
 # remove and discard
 # initialize my_set
@@ -69,7 +69,7 @@ print(my_set1)
 my_set1.discard(44)
 print(my_set1)
 my_set1.remove(55)
-print(my_set1)
+print(my_set1, "\n")
 
 # using pop
 # initialize my_set
@@ -81,7 +81,7 @@ print(my_set1.pop())
 
 # pop another element
 print(my_set1.pop())
-print(my_set1)
+print(my_set1, "\n")
 
 # clear my_set
 my_set1.clear()
@@ -98,7 +98,7 @@ print(myset2)
 print(myset1 | myset2)
 print(myset2 | myset1)
 print(myset1.union(myset2))
-print(myset2.union(myset1))
+print(myset2.union(myset1), "\n")
 
 
 # set operations - intersection
@@ -111,7 +111,7 @@ print(myset2)
 print(myset1 & myset2)
 print(myset2 & myset1)
 print(myset1.intersection(myset2))
-print(myset2.intersection(myset1))
+print(myset2.intersection(myset1), "\n")
 
 
 # set operations - set difference
@@ -124,7 +124,7 @@ print(myset2)
 print(myset1 - myset2)
 print(myset2 - myset1)
 print(myset1.difference(myset2))
-print(myset2.difference(myset1))
+print(myset2.difference(myset1), "\n")
 
 
 # set operations - symmetric difference
@@ -137,7 +137,7 @@ print(myset2)
 print(myset1 ^ myset2)
 print(myset2 ^ myset1)
 print(myset1.symmetric_difference(myset2))
-print(myset2.symmetric_difference(myset1))
+print(myset2.symmetric_difference(myset1), "\n")
 
 
 # set membership
@@ -145,12 +145,14 @@ myset1 = {0, 1, 2, 3, 4, 5}
 print(2 in myset1)
 print(6 in myset1)
 print(2 not in myset1)
-print(6 not in myset1)
+print(6 not in myset1, "\n")
 
 
 # iterating through a set
 for letter in set("welcome"):
     print(letter)
+
+print("\n")
 
 
 # built-in functions with set
@@ -159,7 +161,7 @@ print(len(myset1))
 print(max(myset1))
 print(min(myset1))
 print(sum(myset1))
-print(sorted(myset1))
+print(sorted(myset1), "\n")
 
 
 # python frozenset
