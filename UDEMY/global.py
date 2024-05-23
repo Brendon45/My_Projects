@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 # Tutorial 16-Python global local nonlocal
 
 # Global and local variable with different name
