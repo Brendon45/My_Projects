@@ -13,8 +13,8 @@ def hello(name, msg = ", how are you?"):    # Function with default parameter
     print("Hello", name, msg)
 
 
-hello("Agnibha", ", have a nice day.")
-hello("Agnibha")
+hello("Ayanda", ", have a nice day.")
+hello("Ayanda")
 
 
 def sumAll(*args):  # Function with arbitray arguments
