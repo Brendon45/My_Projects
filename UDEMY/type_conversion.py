@@ -36,5 +36,6 @@ print("Data type of num_str after Type Casting:", type(num_str))
 
 num_sum = num_int + num_str # prints the data type of num_str after type casting
 
+# prints the sum of num_int and num_str
 print("Sum of num_int and num_str:", num_sum)
 print("Data type of the sum:", type(num_sum))
