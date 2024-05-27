@@ -1,6 +1,8 @@
-# My_Projects
+# My_Projects💻🎬✍️
 
 Welcome to My_Projects repository! This repository contains a collection of Python projects and scripts that I've worked on so far on my journey while learning python.
+
+- This Repo is designed for learning and practice purposes....
 
 ## Contents
 
