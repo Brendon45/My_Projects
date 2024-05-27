@@ -1,10 +1,12 @@
+#!/usr/bin/python3
+
 # Tutorial 40-Python List Comprehension
 
 # Iterating a string through a for loop and adding the letters to a list
 h_letters = []
 
 for letter in 'human':
-    h_letters.append(letter)
+    h_letters.append(letter) #appending the letter
     print(h_letters)
 
 print(h_letters)
