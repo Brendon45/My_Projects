@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # Tutorial 35-Python Decorators
 
 # Demonstration
