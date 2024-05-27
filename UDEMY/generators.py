@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # Tutorial 34-Python Generators
 
 # A simple generator function
