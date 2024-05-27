@@ -6,4 +6,4 @@ def greet_user(**kwargs):
     
 
 # greet_user("Obed")
-greet_user(fname="obed", lname="Ehoneah")
+greet_user(fname="Brendon", lname="Jeje")
