@@ -50,9 +50,9 @@ class Student(SchoolMember):
         print('Marks: "{:d}"'.format(self.marks))
 
 # Create an instance of the 'Teacher' class
-t = Teacher('Mrs. Shrividya', 40, 30000)
+t = Teacher('Mrs. Shoniwa', 40, 30000)
 # Create an instance of the 'Student' class
-s = Student('Swaroop', 25, 75)
+s = Student('Amanda', 25, 75)
 
 # prints a blank line
 print()
