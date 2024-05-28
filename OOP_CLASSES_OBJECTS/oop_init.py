@@ -13,6 +13,6 @@ class Person:
         print('Hello, my name is', self.name)
 
 # Create an instance of the 'Person' class with the name 'John Smith'
-p = Person('John Smith')
+p = Person('Tinashe Tom')
 # Call the 'say_hi' method on the 'Person' instance to print the greeting
 p.say_hi()
