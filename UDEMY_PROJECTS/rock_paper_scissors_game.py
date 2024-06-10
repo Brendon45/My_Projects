@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import random
 
 def get_computer_choice():
@@ -14,7 +16,7 @@ def get_user_choice():
 
 def determine_winner(user_choice, computer_choice):
     """Determines and returns the winner"""
-    if  user_choice == computer_choice:
+    if user_choice == computer_choice:
         return "It's a tie!"
     elif (user_choice == "rock" and computer_choice == "scissors") or \
             (user_choice == "paper" and computer_choice == "rock") or \
@@ -26,10 +28,10 @@ def determine_winner(user_choice, computer_choice):
 def play_game():
     """Plays rounds of Rock, Paper, Scissors until the user decides to quit"""
     while True:
-        user_choice = get_user_choice
+        user_choice = get_user_choice()
         if user_choice == 'q':
             break
-        computer_choice = get_computer_choice
+        computer_choice = get_computer_choice()
         print(f"\nYou chose {user_choice}, computer chose {computer_choice}")
         result = determine_winner(user_choice, computer_choice)
         print(result)
